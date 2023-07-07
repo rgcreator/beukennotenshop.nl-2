@@ -1,5 +1,7 @@
-body{
+html, body, footer{
     background-image: url('../beukennoot.jpg');
+background-repeat: no-repeat;
+background-size: cover;
     font-size: 64px;
 }
 input{
