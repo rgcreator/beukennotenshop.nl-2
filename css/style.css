@@ -1,0 +1,20 @@
+body{
+    background-image: url('../beukennoot.jpg');
+    font-size: 64px;
+}
+input{
+    font-size: 64px;
+    line-height: 66px;
+    width: 100%;
+}
+select{
+    height: 66px;
+    font-size: 64px;
+}
+button{
+    font-size: 64px;
+    line-height: 66px;
+}
+p{
+    background-color: white;
+}

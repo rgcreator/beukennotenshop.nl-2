@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+    <HEad>
+        <TITLE>Knaagdierbank</TITLE>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <img src="Knaagdierbank text.png" alt="Knaagdierbank text" class="center">
+        <img src="Wij zijn uw bank.png" alt="Wij zijn uw bank" class="center">
+        <form>
+          <p id="betaald"></p>
+          <script>
+            document.getElementById('betaald').innerHTML = "U heeft " + localStorage.getItem("totaal") + " houtenmunten betaald.";
+            </script>
+    </body>
+</html>

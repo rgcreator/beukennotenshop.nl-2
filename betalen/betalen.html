@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <TITLE>Knaagdierbank</TITLE>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <img src="Knaagdierbank text.png" alt="Knaagdierbank text" class="center">
+        <img src="Wij zijn uw bank.png" alt="Wij zijn uw bank" class="center">
+        <p  class="center" id="rekening">
+        <script>
+            let kosten = document.cookie;
+            document.getElementById('rekening').innerHTML = "U moet " + localStorage.getItem("totaal") + " houtenmunten betalen.";
+            </script>
+        <form class="center">
+            <input type="email" id="email" name="email" placeholder="E-mailadres" required>
+            <input type="password" id="password" name="password" placeholder="Wachtwoord" required>
+            <input type="button" value="Terug" onclick="history.back()">
+            <input type="button" value="Verder" onclick="verder ()">
+            </form>
+       
+            <script>
+                function verder () {
+                   if (document.getElementById('email').value == 'gebruiker@knaagdierbank.nl' && document.getElementById('password').value == 'betalen') {
+                          window.location.href = 'betaald/betaald.html';
+                   } else {
+                       alert('Het ingevoerde e-mailadres of wachtwoord is onjuist.');
+                   }
+                }
+                </script>
+    </body>
+</html>

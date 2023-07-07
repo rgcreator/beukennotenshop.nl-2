@@ -1,0 +1,17 @@
+body{
+    background-image: url("../Knaagdierbank.png");
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    font-size: 64px;
+    background-color: white;
+}
+input{
+    font-size: 64px;
+    line-height: 66px;
+    width: 100%;
+}

@@ -1,0 +1,12 @@
+p{
+    font-size: 64px;
+    background-color: white;
+}
+body{
+    background-image: url("../Knaagdierbank.png");
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
