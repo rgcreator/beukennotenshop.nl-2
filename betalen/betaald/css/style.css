@@ -4,6 +4,10 @@ p{
 }
 body{
     background-image: url("../Knaagdierbank.png");
+    background-repeat: no-repeat;
+background-size: 100% 100%;
+background-attachment: fixed;
+    font-size: 64px;
 }
 img{
     display: block;
